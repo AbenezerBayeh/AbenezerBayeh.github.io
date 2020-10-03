@@ -1,0 +1,136 @@
+p {
+    color: #000000;
+    font: italic bold 1rem Arial;
+}
+
+/* The anhor color for paragraph is set */
+p a{
+    color: #1ad662;
+    font: 1rem Arial;
+}
+
+ul li a{
+    Color: violet
+}
+
+h1 {
+    color: #0ac2b9;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h3 {
+    color: hsl(277, 90%, 40%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+h3 {
+    color: #b5c40a;
+    font-family: Verdana, sans-serif;
+}
+
+table { 
+    table-layout:fixed;
+}
+
+th {
+    color:red;
+    background-color: rgb(10, 196, 196)
+}
+
+td {
+    color: #38c20a;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
+}
+
+a:link { color: #2346C8; }      /* unvisited link */
+a:visited { color: #A81CA5; }  /* visited link */
+a:hover { color: #7C7EEF; }    /* moused over */
+
+
+
+
+.green {
+    color: green;
+}
+
+#sidebar {
+    width: 80%;        /* normally 30% of containing element */
+    min-width: 250px;  /* can’t be smaller than 200px though */
+  }
+
+
+  #paddedbox {
+  /*  padding: 100px 100px 100px 100px;  top, right, bottom, left */
+   /*  padding: 8px 12px;         vertical, horizontal */
+       padding: 100px;             /* all sides */
+  }
+
+  #borderbox {
+    border: 10px solid #000000; /* black dotted line 1px thick */
+    border-top: 10px solid red;  /* red top as solid line 3px thick */
+    border-bottom: 10px solid blue;
+  }
+  
+  .floatleft{
+      float:left;
+      width: zero px;
+      background: yellow;
+  }
+
+  .floatright{
+    float:right;
+    width: zero px;
+    background: yellow;
+}
+
+  .clearleft{
+      clear:left
+  }
+  
+
+  body{
+      background-color: #fbeecb;
+      
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
+  /* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
