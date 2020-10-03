@@ -17,6 +17,7 @@ h1 {
     color: #0ac2b9;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    text-shadow: 2px 2px #00ff55;
 }
 
 h3 {
@@ -70,8 +71,9 @@ a:hover { color: #7C7EEF; }    /* moused over */
 
   #borderbox {
     border: 10px solid #000000; /* black dotted line 1px thick */
-    border-top: 10px solid red;  /* red top as solid line 3px thick */
-    border-bottom: 10px solid blue;
+    padding: 20px;
+   /*  border-top: 10px solid red;  red top as solid line 3px thick */
+   /*  border-bottom: 10px solid blue;*/
   }
   
   .floatleft{
@@ -108,7 +110,7 @@ a:hover { color: #7C7EEF; }    /* moused over */
   /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(20, 20, 20);
   }
   
   /* Style the topnav links */
@@ -123,7 +125,7 @@ a:hover { color: #7C7EEF; }    /* moused over */
   
   /* Change color on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: rgb(243, 250, 148);
     color: black;
   }
   
