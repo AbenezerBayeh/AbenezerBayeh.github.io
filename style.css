@@ -1,16 +1,23 @@
 p {
-    color: #000000;
+    color: #313030;
     font: italic bold 1rem Arial;
+   /* background-color: rgb(255, 255, 255)*/
 }
 
-/* The anhor color for paragraph is set */
+/* The anchor color for paragraph is set */
 p a{
     color: #1ad662;
     font: 1rem Arial;
 }
 
-ul li a{
-    Color: violet
+ul li{
+    Color: rgb(90, 28, 28);
+    font: 1rem Arial;
+}
+
+ol li{
+    Color: rgb(17, 11, 39);
+    font: 1rem Arial;
 }
 
 h1 {
@@ -20,14 +27,15 @@ h1 {
     text-shadow: 2px 2px #00ff55;
 }
 
-h3 {
+h2 {
     color: hsl(277, 90%, 40%);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
 h3 {
-    color: #b5c40a;
+    color: #000000;
     font-family: Verdana, sans-serif;
+    text-shadow: 2px 2px #ffef09;
 }
 
 table { 
@@ -79,13 +87,13 @@ a:hover { color: #7C7EEF; }    /* moused over */
   .floatleft{
       float:left;
       width: zero px;
-      background: yellow;
+      margin: 5px;
   }
 
   .floatright{
     float:right;
     width: zero px;
-    background: yellow;
+    margin: 5px;
 }
 
   .clearleft{
