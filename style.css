@@ -30,6 +30,8 @@ h1 {
 h2 {
     color: hsl(277, 90%, 40%);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px #00ff55;
 }
 
 h3 {
@@ -144,3 +146,5 @@ a:hover { color: #7C7EEF; }    /* moused over */
       width: 100%;
     }
   }
+
+  
